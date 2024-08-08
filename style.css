@@ -1,0 +1,61 @@
+
+*{
+    margin:0;
+    padding : 0;
+}
+body {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh; 
+    color :#2b498b;
+};
+
+.container{
+    background-color: #fff;
+    padding : 2rem;
+    border-radius: 1rem;
+    min-height: 45vh ;
+    width : 40vh;
+}
+form{
+    margin : 2rem 0 1rem 0;
+}
+form select,button,input {
+    width : 100%;
+    border-radius: 0.75rem;
+}
+form input{
+    border : 1px solid solid black;
+    height : 2rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+ 
+    
+    margin-top: 2rem; 
+}
+.select-container img{
+
+    display : flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    align-items: center;
+    border : 1px solid lightgray;
+}
+.msg {
+    color:black;
+    font-weight: bold;
+    text-align : center;
+    
+}
+button  {
+ height : 3rem;
+ background-color: rgb(239, 36, 239);
+ color  :white; 
+ font-size: 1.1rem;
+ cursor: pointer;
+}
+button:hover{
+    color: rgb(12, 238, 12); /* Change color on hover */
+}
